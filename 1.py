@@ -109,7 +109,7 @@ models = {
     "Decision Tree": DecisionTreeClassifier(),
     "KNN": KNeighborsClassifier(),
     "SVM": SVC(),
-    "Logistic Regression": LogisticRegression(max_iter=2000)
+    "Logistic Regression": LogisticRegression(max_iter=20000)
 }
 
 # Step 6: Train and compare
